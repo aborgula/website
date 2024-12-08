@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform:uppercase; 
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    background: url(tlo2.jpeg) no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-attachment:fixed;
+    display:flex;
+    flex-direction:column;
+    margin: 0;
+}
+
+header{
+    position:sticky;
+    top:0; left:0; right: 0;
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+    box-shadow: 0 9px 10px;
+    padding: 0px 13%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    z-index: 1000;
+}
+
+header .logo{
+  font-weight: bolder;
+  font-size: 30px;
+  color: #333;
+  padding-left: 20px;
+}
+
+header .navbar ul{
+    list-style: none;
+
+
+}
+
+header .navbar ul .m {
+    width: 220px;
+    text-align: center;
+}
+
+header .navbar ul ul li .l{
+    width: 220px;
+    text-align: center;
+}
+
+header .navbar ul li{
+    position:relative;
+    float: left;
+}
+
+header .navbar ul li a{
+  font-size: 20px;
+  padding: 20px;
+  color: #6d6c6c;
+  display: block;
+  transition:  0.3s ease-in;
+
+}
+
+header .navbar ul li a:hover{
+    background: rgb(211, 210, 210);
+}
+
+header .navbar ul li ul{
+    position:absolute;
+    left: 0;
+    background:rgb(255, 255, 255) ;
+    opacity: 0.8;
+    width: 220px;
+    display: none;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul{
+   display:initial;
+}
+
+
+footer{ 
+    background: rgb(255, 255, 255);
+    opacity: 0.7;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 -9px 10px;
+}
+
+
+main {
+    display:inline-flex;
+    justify-content:space-around;
+    align-items:stretch;
+    flex: 1;
+
+  }
+  
+  .left,
+  .right {
+    background-color: rgb(251, 255, 255);
+    padding: 24px;
+  }
+  
+ 
+  h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 90px;
+    font-family: fantasy;
+    font-weight:900;
+    padding-top: 20px;
+  }
+
+ .wstep  p{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     z-index: 1; /* Podnosi element nad tło */
+     padding-bottom: 15px;
+
+  }
+
+.wstep{
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: -1; /* Umieszcza to tło pod treścią */
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9); 
+}
+
+.dziennik p{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     z-index: 1; /* Podnosi element nad tło */
+     padding-bottom: 15px;
+
+  }
+
+  
+
+.dziennik{
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: -1; /* Umieszcza to tło pod treścią */
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9); 
+}
+
+
+.test p{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     z-index: 1; /* Podnosi element nad tło */
+     padding-bottom: 15px;
+
+  }
+
+.test{
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: -1; /* Umieszcza to tło pod treścią */
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9); 
+}
+
+.kiedy p{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     z-index: 1; /* Podnosi element nad tło */
+     padding-bottom: 15px;
+
+  }
+
+.kiedy {
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: -1; /* Umieszcza to tło pod treścią */
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9); 
+}
+
+.nie p{
+    color: aliceblue;
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+     padding-left: 50px;
+     padding-right: 50px;
+     z-index: 1; /* Podnosi element nad tło */
+     padding-bottom: 15px;
+
+  }
+
+.nie{
+    background: rgba(255, 255, 255, 0.3); 
+    z-index: -1; /* Umieszcza to tło pod treścią */
+    margin-left: 30px;
+    margin-right: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.9); 
+}
+  
